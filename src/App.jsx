@@ -1,12 +1,5 @@
-import "./App.css";
-import Pokedex from "./components/Pokedex/Pokedex";
+import { Pokemon } from "./Pokemon";
 
-function App() {
-  return (
-    <>
-      <Pokedex />
-    </>
-  );
-}
-
-export default App;
+export const App = () => {
+  return <Pokemon />;
+};
